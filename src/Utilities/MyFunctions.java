@@ -1,4 +1,4 @@
-package seleniumtest.Utilities;
+package Utilities;
 
 public class MyFunctions {
 
