@@ -14,6 +14,13 @@ public class _06_FindingByLinkText {
         WebElement kampanyalar = driver.findElement(By.linkText("Kampanyalar"));
         System.out.println("kampanyalar.getText() = " + kampanyalar.getText());
 
+        System.out.println("kampanyalar.getAttribute(\"href\") = " + kampanyalar.getAttribute("href"));
+        System.out.println("kampanyalar.getAttribute(\"href\") = " + kampanyalar.getAttribute("title"));
+        System.out.println("kampanyalar.getAttribute(\"href\") = " + kampanyalar.getAttribute("style"));
+
+        WebElement superteklif = driver.findElement(By.partialLinkText("Süper Teklif"));
+        System.out.println("superteklif.getText() = " + superteklif.getText());
+
         MyFunctions.Bekleme(4);
         driver.quit();
 
