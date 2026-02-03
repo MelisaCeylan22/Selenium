@@ -18,7 +18,7 @@ public class _06_FindingByLinkText {
         System.out.println("kampanyalar.getAttribute(\"href\") = " + kampanyalar.getAttribute("title"));
         System.out.println("kampanyalar.getAttribute(\"href\") = " + kampanyalar.getAttribute("style"));
 
-        WebElement superteklif = driver.findElement(By.partialLinkText("Süper Teklif"));
+        WebElement superteklif = driver.findElement(By.partialLinkText("Süper Teklif"));  //parçalı linkten linktexti bulma//
         System.out.println("superteklif.getText() = " + superteklif.getText());
 
         MyFunctions.Bekleme(4);
